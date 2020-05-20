@@ -16,4 +16,7 @@ void loop() {
   digitalWrite(led,HIGH);
   Serial.println("Ahora este es un cambio local");
   delay(1000);
+  digitalWrite(led,LOW);
+  Serial.println("Y para terminar, este es un cambio desde la web");
+  delay(1000);
 }
