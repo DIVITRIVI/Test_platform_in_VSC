@@ -8,9 +8,9 @@ void setup() {
 
 void loop() {
   digitalWrite(led,HIGH);
+  Serial.println("Este era la linea local");
   delay(1000);
   digitalWrite(led,LOW);
-  delay(1000);
-  Serial.println("Yeeee");
   Serial.println("Agregando un cambio desde el entorno de GitHub");
+  delay(1000);
 }
