@@ -11,6 +11,6 @@ void loop() {
   Serial.println("Este era la linea local");
   delay(1000);
   digitalWrite(led,LOW);
-  Serial.println("Y estoy realizando pruebas experimentales");
+  Serial.println("Se apaga la luz");
   delay(1000);
 }
