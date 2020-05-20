@@ -13,4 +13,7 @@ void loop() {
   digitalWrite(led,LOW);
   Serial.println("Agregando un cambio desde el entorno de GitHub");
   delay(1000);
+  digitalWrite(led,HIGH);
+  Serial.println("Ahora este es un cambio local");
+  delay(1000);
 }
